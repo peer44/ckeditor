@@ -16,13 +16,12 @@
 		<textarea name="content" id="content">
 		如果想让图片居中，请先选择居中，然后再插入图片!
         </textarea>
+		<input type="text" id="userId" /> <input type="hidden"
+			value="${base }" id="base" />
 	</form>
-	<script type="text/javascript">
-		var editor = CKEDITOR.replace('content');
-		CKFinder.setupCKEditor(editor, '${base }/assets/ckfinder/');
-		
-	</script>
+	<button id="login">登陆</button>
+	<button id="logout">退出</button>
 	<script type="text/javascript" src="${base }/assets/js/index.js"></script>
-	
+
 </body>
 </html>

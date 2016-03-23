@@ -1,4 +1,3 @@
-
 CKEDITOR.editorConfig = function( config ) {
 	config.height = 300;
 	config.enterMode = CKEDITOR.ENTER_BR;// 以<br>换行替换<p>换行
